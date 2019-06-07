@@ -14,6 +14,8 @@ class csued
 {
     public static void main(String args[]) throws IOException
     {
+    	String Author = "Àü»ó¿±";
+    			
         File_Buffer FILE       = new File_Buffer();
         Init_Exit Start_End    = new Init_Exit(args,FILE);
         Cmd_Driver Run_Command = new Cmd_Driver();
